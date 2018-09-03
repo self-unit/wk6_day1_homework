@@ -46,7 +46,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-<!-- the output will be an error in attempting to modify a constant variable and "The murderer is Professor Plum" -->
+<!-- the output will be an error in attempting to modify a constant variable -->
 
 #### Episode 3
 
@@ -64,7 +64,7 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 ```
-<!-- the output will be "The murderer is Mrs. Peacock" and "The murderer is Professor Plum" -->
+<!-- the output will be "First Verdict: The murderer is Mrs. Peacock" and "Second Verdict: The murderer is Professor Plum" -->
 
 #### Episode 4
 
@@ -161,7 +161,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-<!-- the output will be "The murderer is Miss Scarlet" -->
+<!-- the output will be "The murderer is Mr. Green." -->
 
 #### Episode 8
 
@@ -219,7 +219,7 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-<!-- the output will be "The murderer is Professor Plum!" -->
+<!-- the output will be "The murderer is Professor Plum." -->
 
 ### Extensions
 
