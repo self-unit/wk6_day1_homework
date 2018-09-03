@@ -105,7 +105,7 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
-<!--  -->
+<!-- the output will be "The weapon is the Revolver" -->
 
 #### Episode 6
 
@@ -130,6 +130,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+<!-- the output will be "The murderer is Mrs. White" -->
 
 #### Episode 7
 
@@ -160,6 +161,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+<!-- the output will be "The murderer is Miss Scarlet" -->
 
 #### Episode 8
 
@@ -199,6 +201,7 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+<!-- the output will be "The weapon is Candle Stick" -->
 
 #### Episode 9
 
@@ -216,7 +219,13 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+<!-- the output will be "The murderer is Professor Plum!" -->
 
 ### Extensions
 
 Make up your own episode!
+
+```js
+
+
+```
