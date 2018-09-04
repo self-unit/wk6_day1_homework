@@ -251,7 +251,7 @@ const changeWeapon = function() {
 }
 
 const declareMurderer = function() {
-  return `The murderer was committed ${issMurda.location} by ${issMurda.murderer} with ${issMurda.weapon}.`;
+  return `The murder was committed at the ${issMurda.location} by ${issMurda.murderer} with ${issMurda.weapon}.`;
 }
 
 mutateMurda('Beef-Jerky');
